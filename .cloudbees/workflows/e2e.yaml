@@ -8,9 +8,10 @@ jobs:
     steps:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
-          name: artifact3
-          version: qe-0.4
-          url: 020229604682.dkr.ecr.us-east-1.amazonaws.com/throwaway/actions/vulnerable-image:qe-0.4
+          name: artifact314
+          version: 1.0
+          artifact-id: f93b1864-f2eb-42a0-84e2-6cb3a0cf7b10
+          url: nexusoss.saas-preprod.beescloud.com/aspm-test:1.0
           target-environment: aspm-qa-test
   publish-evidence:
     steps:
