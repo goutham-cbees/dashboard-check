@@ -6,7 +6,7 @@ on:
 jobs:
   deploy:
     steps:
-      - uses: cloudbees-io/register-deployed-artifact@v1
+      - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           name: artifact3
           version: qe-0.4
