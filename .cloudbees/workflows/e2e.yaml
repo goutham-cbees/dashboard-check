@@ -10,7 +10,6 @@ jobs:
         with:
           version: 1.0
           artifact-id: f93b1864-f2eb-42a0-84e2-6cb3a0cf7b10
-          url: nexusoss.saas-preprod.beescloud.com/aspm-test:1.0
           target-environment: aspm-qa-test
   publish-evidence:
     steps:
